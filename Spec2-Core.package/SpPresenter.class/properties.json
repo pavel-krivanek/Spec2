@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Spec2-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ui",
+		"model",
+		"view",
+		"style"
+	],
+	"name" : "SpPresenter",
+	"type" : "normal"
+}
