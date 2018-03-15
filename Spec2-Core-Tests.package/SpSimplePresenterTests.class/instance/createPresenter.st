@@ -1,0 +1,3 @@
+running
+createPresenter
+	^SpSimplePresenter new

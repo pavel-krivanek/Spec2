@@ -5,8 +5,7 @@ testViewCreation
 	presenter stub.
 	presenter createViewIn: ui.
 	
-	[presenter createChildren.
-	ui createViewFor: presenter.
+	[ui createViewFor: presenter.
 	presenter attachToView.
 	presenter attachToModel] should beDoneInOrder.
 	presenter ui should be: ui.
