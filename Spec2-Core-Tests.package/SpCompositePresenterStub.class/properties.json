@@ -1,11 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "SpSimplePresenter",
+	"super" : "SpCompositePresenter",
 	"category" : "Spec2-Core-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "SpPresenterStub",
+	"instvars" : [
+		"child1",
+		"child2"
+	],
+	"name" : "SpCompositePresenterStub",
 	"type" : "normal"
 }
