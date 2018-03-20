@@ -6,4 +6,4 @@ testBuildingPresenterWithSpecialStyle
 	presenter buildIn: ui.
 	
 	presenter view should beInstanceOf: SpViewStub.
-	presenter view name should be: #specialStyle
+	presenter view name should be: #specialView

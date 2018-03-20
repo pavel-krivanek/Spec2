@@ -1,5 +1,5 @@
-view specs
-defaultStyle
+styles
+setUpDefaultStyle
 	<defaultStyle>
 	
 	view := SpCompositeViewStub named: #defaultView.

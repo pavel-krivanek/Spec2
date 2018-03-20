@@ -1,5 +1,5 @@
-view specs
-createDefaultStubView
+views
+setUpDefaultStubView
 	<defaultView>
 	<contextOfUI: #SpStubUI>
 	<priority: 100>

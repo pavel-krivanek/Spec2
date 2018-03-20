@@ -1,5 +1,5 @@
-view specs
-specialStyleInsideCompositeStub
+styles
+setUpRedStyleInsideCompositeStub
 	<defaultStyle>
 	<contextOfParent: #SpCompositeViewStub>
 	
