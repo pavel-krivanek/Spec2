@@ -1,9 +1,9 @@
 tests
-testViewCreationWithSpecialStyle
+testBuildingPresenterWithSpecialStyle
 
 	| presenter |
 	presenter := SpPresenterStub on: #testModel withStyle: #specialStyle.
-	presenter createViewIn: ui.
+	presenter buildIn: ui.
 	
 	presenter view should beInstanceOf: SpViewStub.
 	presenter view name should be: #specialStyle

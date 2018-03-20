@@ -1,9 +1,9 @@
 tests
-testViewCreationWithAbsentStyle
+testBuildingPresenterWithAbsentStyle
 
 	| presenter |
 	presenter := SpPresenterStub on: #testModel withStyle: #absentStyle.
-	presenter createViewIn: ui.
+	presenter buildIn: ui.
 	
 	presenter view should beInstanceOf: SpViewStub.
 	presenter view name should be: #absentView

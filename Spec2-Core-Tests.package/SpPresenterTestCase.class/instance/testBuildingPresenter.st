@@ -1,11 +1,11 @@
 tests
-testViewCreation
+testBuildingPresenter
 
 	ui := Mock new.	
 	presenter stub.
-	presenter createViewIn: ui.
+	presenter buildIn: ui.
 	
-	[ui createViewFor: presenter.
+	[presenter buildView.
 	presenter attachToView.
 	presenter attachToModel] should beDoneInOrder.
 	presenter ui should be: ui.

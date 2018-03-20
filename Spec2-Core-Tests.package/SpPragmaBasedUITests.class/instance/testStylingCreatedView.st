@@ -3,7 +3,7 @@ testStylingCreatedView
 
 	| presenter |
 	presenter := SpPresenterStub new.
-	presenter createViewIn: ui.
+	presenter buildIn: ui.
 
 	presenter styleViewWith: #specialStyle.
 	

@@ -1,5 +1,5 @@
 initialization
-createView
+build
 	self createChildren.
 	
-	super createView
+	super build

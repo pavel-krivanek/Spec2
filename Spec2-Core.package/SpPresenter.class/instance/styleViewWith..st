@@ -2,4 +2,5 @@ controlling
 styleViewWith: newStyle
 
 	style := newStyle.
-	self recreateView
+	self buildView.
+	self attachToView
