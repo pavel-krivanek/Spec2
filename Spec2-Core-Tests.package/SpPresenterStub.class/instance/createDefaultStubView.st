@@ -1,5 +1,7 @@
 view specs
 createDefaultStubView
-	<view: #defaultView in: #SpStubUI>
+	<defaultView>
+	<contextOfUI: #SpStubUI>
+	<priority: 100>
 	
 	view := SpViewStub named: #defaultView

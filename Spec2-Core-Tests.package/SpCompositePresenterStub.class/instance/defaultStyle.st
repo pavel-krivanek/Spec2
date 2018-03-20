@@ -1,6 +1,6 @@
 view specs
-createDefaultView
-	<view: #defaultView in: #SpStubUI>
+defaultStyle
+	<defaultStyle>
 	
 	view := SpCompositeViewStub named: #defaultView.
 	ui layout: view with: [:layout |

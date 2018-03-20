@@ -1,4 +1,4 @@
 view creation
 createContainerViewFor: aPresenter
 
-	^SpCompositeViewStub 
+	^SpCompositeViewStub new

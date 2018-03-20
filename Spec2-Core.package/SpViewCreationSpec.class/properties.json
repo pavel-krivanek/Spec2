@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SpViewSpec",
+	"category" : "Spec2-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpViewCreationSpec",
+	"type" : "normal"
+}
