@@ -1,7 +1,7 @@
 styles
 setUpRedStyleInsideCompositeStub
 	<defaultStyle>
-	<contextOfParent: #SpCompositeViewStub>
+	<forParent: #SpCompositeViewStub>
 	
 	<priority: 100>
 

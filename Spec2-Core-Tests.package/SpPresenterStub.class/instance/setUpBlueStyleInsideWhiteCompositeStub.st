@@ -1,6 +1,6 @@
 styles
 setUpBlueStyleInsideWhiteCompositeStub
 	<defaultStyle>
-	<contextOfParent: #SpCompositeViewStub style: #white>
+	<forParent: #SpCompositeViewStub style: #white>
 
 	view color: Color blue

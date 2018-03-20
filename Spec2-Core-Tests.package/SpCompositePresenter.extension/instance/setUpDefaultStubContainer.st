@@ -1,6 +1,6 @@
 *Spec2-Core-Tests
 setUpDefaultStubContainer
 	<defaultView>
-	<contextOfUI: #SpStubUI>
+	<forUI: #SpStubUI>
 
 	view := SpCompositeViewStub	new
