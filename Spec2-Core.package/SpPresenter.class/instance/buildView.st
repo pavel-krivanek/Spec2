@@ -1,3 +1,4 @@
 initialization
 buildView
-	ui createViewFor: self
+	ui createViewFor: self.
+	self attachToView.

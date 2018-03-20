@@ -6,4 +6,4 @@ testBuildingPresenterShouldCreateChildrenFirst
 	presenter buildIn: ui.
 	
 	[presenter createChildren.
-	presenter buildView] should beDoneInOrder
+	ui createViewFor: presenter] should beDoneInOrder
