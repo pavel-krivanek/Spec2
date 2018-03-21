@@ -1,4 +1,4 @@
 initialization
 attachToView
 	
-	view text: (ui textForLabel: model)
+	view contents: (ui textForLabel: model)

@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "SpSimplePresenter",
+	"super" : "SpViewStub",
 	"category" : "Spec2-Core-Tests-Stubs",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "SpPresenterStub",
+	"instvars" : [
+		"contents"
+	],
+	"name" : "SpLabelViewStub",
 	"type" : "normal"
 }
