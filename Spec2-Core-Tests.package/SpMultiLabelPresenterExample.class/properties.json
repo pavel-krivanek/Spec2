@@ -6,9 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"child1",
-		"child2"
+		"label1",
+		"label2"
 	],
-	"name" : "SpCompositePresenterStub",
+	"name" : "SpMultiLabelPresenterExample",
 	"type" : "normal"
 }

@@ -2,7 +2,7 @@ tests
 testBuildingCompositePresenter
 
 	| presenter |
-	presenter := SpCompositePresenterStub new.
+	presenter := SpMultiLabelPresenterExample new.
 	presenter buildIn: ui.
 	
 	presenter view should beInstanceOf: SpCompositeViewStub
