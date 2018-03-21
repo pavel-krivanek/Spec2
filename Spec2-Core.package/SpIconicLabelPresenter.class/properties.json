@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SpIconLabelPresenter",
+	"name" : "SpIconicLabelPresenter",
 	"type" : "normal"
 }

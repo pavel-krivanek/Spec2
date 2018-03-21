@@ -1,12 +1,13 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "Spec2-Core-Tests-Stubs",
+	"category" : "Spec2-Core-Tests-StubUI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name"
+		"name",
+		"contents"
 	],
 	"name" : "SpViewStub",
 	"type" : "normal"

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "SpPragmaBasedUI",
-	"category" : "Spec2-Core-Tests-Stubs",
+	"category" : "Spec2-Core-Tests-StubUI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

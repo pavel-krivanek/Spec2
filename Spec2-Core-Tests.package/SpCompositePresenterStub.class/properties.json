@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "SpCompositePresenter",
-	"category" : "Spec2-Core-Tests-Stubs",
+	"category" : "Spec2-Core-Tests-Examples",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
