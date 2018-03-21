@@ -1,5 +1,6 @@
 *Spec2-Core-Tests
 setUpDefaultStubView
 	<defaultView>
+	<forStubUI>
 	
-	view := SpLabelViewStub new
+	view := SpLabelViewStub named: #defaultLabel

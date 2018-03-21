@@ -2,8 +2,8 @@ tests
 testBuildingPresenterWithSpecialStyle
 
 	| presenter |
-	presenter := SpPresenterStub on: #testModel withStyle: #specialStyle.
+	presenter := SpLabelPresenter textual: 'test label' withStyle: #specialStyle.
 	presenter buildIn: ui.
 	
-	presenter view should beInstanceOf: SpViewStub.
+	presenter view should beInstanceOf: SpLabelViewStub.
 	presenter view name should be: #specialView

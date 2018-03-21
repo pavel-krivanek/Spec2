@@ -1,3 +1,3 @@
 view creation
 setUpAbsentViewFor: aPresenter
-	aPresenter view: (SpViewStub named: #absentView)
+	aPresenter view: (SpViewStub named: #undefinedView)
