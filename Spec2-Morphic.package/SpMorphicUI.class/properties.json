@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SpPragmaBasedUI",
+	"category" : "Spec2-Morphic",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpMorphicUI",
+	"type" : "normal"
+}
