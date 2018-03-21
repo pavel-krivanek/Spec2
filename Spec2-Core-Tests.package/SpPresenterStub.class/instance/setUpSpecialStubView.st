@@ -1,7 +1,7 @@
 views
 setUpSpecialStubView
 	<view: #specialStyle>
-	<forUI: #SpStubUI>
+	<forStubUI>
 	<priority: 100>
 	
 	view := SpViewStub named: #specialView

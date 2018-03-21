@@ -1,7 +1,7 @@
 views
 setUpDefaultStubView
 	<defaultView>
-	<forUI: #SpStubUI>
+	<forStubUI>
 	<priority: 100>
 	
 	view := SpViewStub named: #defaultView
