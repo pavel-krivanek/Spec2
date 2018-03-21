@@ -5,5 +5,5 @@ printOn: aStream
 	aStream nextPut: $(.
 	presenterClass printOn: aStream. 
 	presenterStyle ifNotNil: [ 
-		aStream nextPut: '; '; nextPutAll: presenterStyle ].
+		aStream nextPutAll: '; '; nextPutAll: presenterStyle ].
 	aStream nextPut: $).

@@ -1,0 +1,3 @@
+running
+createUIContext
+	^SpParentPresenterContext fromClass: SpMultiLabelPresenterExample 
