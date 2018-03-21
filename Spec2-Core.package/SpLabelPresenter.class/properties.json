@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "SpPresenterContext",
-	"category" : "Spec2-Core-UI",
+	"super" : "SpSimplePresenter",
+	"category" : "Spec2-Core-Presenters",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SpParentPresenterContext",
+	"name" : "SpLabelPresenter",
 	"type" : "normal"
 }

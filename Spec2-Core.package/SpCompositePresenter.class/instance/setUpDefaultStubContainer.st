@@ -1,4 +1,4 @@
-*Spec2-Core-Tests
+as yet unclassified
 setUpDefaultStubContainer
 	<defaultView>
 	<forUI: #SpStubUI>
