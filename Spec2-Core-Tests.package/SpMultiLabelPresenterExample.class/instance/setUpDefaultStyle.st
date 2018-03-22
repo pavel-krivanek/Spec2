@@ -6,10 +6,10 @@ setUpDefaultStyle
 		layout beFlow vertical.
 		
 		layout add: label1 with: [:c |
-			c horizontal fitContent.
-			c vertical matchParent].
+			c horizontal matchParent.
+			c vertical fitContent].
 		
 		layout add: label2 with: [:c |
-			c horizontal fitContent.
-			c vertical matchParent].		
+			c horizontal matchParent.
+			c vertical fitContent].		
 	]
