@@ -1,6 +1,6 @@
 specs collection
 collectSpecsFor: aPresenter
-	"It will be grouped by class"
+	"The result will be grouped by class"
 	| all currentClass |
 	all := Dictionary new.	
 	
