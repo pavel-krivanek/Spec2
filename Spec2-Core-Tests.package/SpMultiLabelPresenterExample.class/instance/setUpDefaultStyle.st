@@ -2,7 +2,7 @@ styles
 setUpDefaultStyle
 	<defaultStyle>
 	
-	ui layout: view with: [:layout |
+	ui layout: self with: [:layout |
 		layout beFlow vertical.
 		
 		layout add: label1 with: [:c |

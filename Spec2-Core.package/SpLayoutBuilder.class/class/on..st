@@ -1,4 +1,4 @@
 instance creation
-on: aView
+on: aPresenter
 	^self new 
-		view: aView
+		presenter: aPresenter

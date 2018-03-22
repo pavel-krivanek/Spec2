@@ -1,0 +1,3 @@
+private
+addChildViewFrom: aPresenter
+	self subclassResponsibility

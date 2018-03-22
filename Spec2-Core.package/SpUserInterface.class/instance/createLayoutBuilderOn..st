@@ -1,3 +1,3 @@
 layout views
-createLayoutBuilderOn: aView
+createLayoutBuilderOn: aPresenter
 	self subclassResponsibility 
