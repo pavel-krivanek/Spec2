@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SpPresenterStylingSpec",
+	"name" : "SpViewSpec",
 	"type" : "normal"
 }
