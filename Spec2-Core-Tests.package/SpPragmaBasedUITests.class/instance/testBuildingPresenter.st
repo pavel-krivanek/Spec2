@@ -5,5 +5,5 @@ testBuildingPresenter
 	presenter := SpLabelPresenter textual: 'test label'.
 	presenter buildIn: ui.
 	
-	presenter view should beInstanceOf: SpLabelViewStub.
-	presenter view name should be: #defaultView
+	self assert: presenter view class equals: SpLabelViewStub.
+	self assert: presenter view name equals: #defaultLabel

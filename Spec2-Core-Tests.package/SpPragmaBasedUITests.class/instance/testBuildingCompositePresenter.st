@@ -5,4 +5,4 @@ testBuildingCompositePresenter
 	presenter := SpMultiLabelPresenterExample new.
 	presenter buildIn: ui.
 	
-	presenter view should beInstanceOf: SpCompositeViewStub
+	self assert: presenter view class equals: SpCompositeViewStub

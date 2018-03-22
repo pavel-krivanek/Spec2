@@ -9,7 +9,8 @@
 		"ui",
 		"model",
 		"view",
-		"style"
+		"style",
+		"parent"
 	],
 	"name" : "SpPresenter",
 	"type" : "normal"

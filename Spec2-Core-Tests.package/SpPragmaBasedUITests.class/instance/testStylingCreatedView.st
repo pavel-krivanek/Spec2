@@ -7,6 +7,6 @@ testStylingCreatedView
 
 	presenter styleViewWith: #specialStyle.
 	
-	presenter style should equal: #specialStyle.
-	presenter view should beInstanceOf: SpLabelViewStub.
-	presenter view name should be: #specialView
+	self assert: presenter style equals: #specialStyle.
+	self assert: presenter view class equals: SpLabelViewStub.
+	self assert: presenter view name equals: #specialView

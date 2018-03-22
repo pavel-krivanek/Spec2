@@ -5,5 +5,5 @@ testBuildingPresenterWithUndefinedStyle
 	presenter := SpLabelPresenter textual: 'test label' withStyle: #undefinedStyle.
 	presenter buildIn: ui.
 	
-	presenter view should beInstanceOf: SpViewStub.
-	presenter view name should be: #undefinedView
+	self assert: presenter view class equals: SpViewStub.
+	self assert: presenter view name equals: #undefinedView

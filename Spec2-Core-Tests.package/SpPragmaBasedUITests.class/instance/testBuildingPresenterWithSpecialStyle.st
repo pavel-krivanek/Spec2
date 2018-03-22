@@ -5,5 +5,5 @@ testBuildingPresenterWithSpecialStyle
 	presenter := SpLabelPresenter textual: 'test label' withStyle: #specialStyle.
 	presenter buildIn: ui.
 	
-	presenter view should beInstanceOf: SpLabelViewStub.
-	presenter view name should be: #specialView
+	self assert: presenter view class equals: SpLabelViewStub.
+	self assert: presenter view name equals: #specialView

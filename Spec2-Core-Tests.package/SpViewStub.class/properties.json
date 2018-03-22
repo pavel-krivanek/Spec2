@@ -7,7 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"name",
-		"contents"
+		"contents",
+		"color",
+		"backgroundColor"
 	],
 	"name" : "SpViewStub",
 	"type" : "normal"
