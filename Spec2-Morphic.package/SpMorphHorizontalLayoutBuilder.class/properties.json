@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "SpUILayoutBuilder",
-	"category" : "Spec2-Core-Tests-StubUI",
+	"super" : "SpMorphLayoutBuilder",
+	"category" : "Spec2-Morphic",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SpStubUILayoutBuilder",
+	"name" : "SpMorphHorizontalLayoutBuilder",
 	"type" : "normal"
 }

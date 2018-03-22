@@ -1,3 +1,3 @@
 layout views
 createLayoutBuilderOn: aPresenter
-	^SpMorphicLayoutBuilder on: aPresenter
+	^SpMorphicUILayoutBuilder on: aPresenter

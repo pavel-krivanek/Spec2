@@ -9,6 +9,6 @@
 		"view",
 		"presenter"
 	],
-	"name" : "SpLayoutBuilder",
+	"name" : "SpUILayoutBuilder",
 	"type" : "normal"
 }
