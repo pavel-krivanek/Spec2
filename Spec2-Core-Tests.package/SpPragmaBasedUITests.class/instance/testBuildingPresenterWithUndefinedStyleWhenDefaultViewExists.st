@@ -1,5 +1,5 @@
 tests
-testBuildingPresenterWithUndefinedStyle
+testBuildingPresenterWithUndefinedStyleWhenDefaultViewExists
 
 	| presenter |
 	presenter := SpLabelPresenter textual: 'test label' withStyle: #undefinedStyle.

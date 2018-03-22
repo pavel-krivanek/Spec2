@@ -9,4 +9,4 @@ testStylingCreatedView
 	
 	self assert: presenter style equals: #specialStyle.
 	self assert: presenter view class equals: SpLabelViewStub.
-	self assert: presenter view name equals: #specialView
+	self assert: presenter view name equals: #specialLabel

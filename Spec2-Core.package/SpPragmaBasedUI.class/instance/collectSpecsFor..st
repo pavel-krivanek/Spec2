@@ -1,7 +1,7 @@
 specs collection
 collectSpecsFor: aPresenter
 	"It will be grouped by class"
-	| all specsFromMethod |
+	| all |
 	all := Dictionary new.	
 	aPresenter class methodsDo: [ :eachMethod | 
 		self createSpecFrom: eachMethod andDo: [:spec | 
