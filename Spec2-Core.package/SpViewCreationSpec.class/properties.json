@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "SpViewSpec",
+	"super" : "SpPresenterSpec",
 	"category" : "Spec2-Core-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],

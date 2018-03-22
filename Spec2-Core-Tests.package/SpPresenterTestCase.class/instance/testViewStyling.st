@@ -7,6 +7,6 @@ testViewStyling
 	
 	presenter styleViewWith: #newStyle.
 	
-	[ui createViewFor: presenter.
+	[ui setUpViewFor: presenter.
 	presenter attachToView] should beDoneInOrder.
 	presenter style should be: #newStyle.

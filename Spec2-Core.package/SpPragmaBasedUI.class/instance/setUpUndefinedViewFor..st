@@ -1,0 +1,3 @@
+presenter building
+setUpUndefinedViewFor: aPresenter
+	self subclassResponsibility 

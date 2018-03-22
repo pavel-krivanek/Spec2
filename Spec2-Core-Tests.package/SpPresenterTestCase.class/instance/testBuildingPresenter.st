@@ -5,7 +5,7 @@ testBuildingPresenter
 	presenter stub.
 	presenter buildIn: ui.
 	
-	[ui createViewFor: presenter.
+	[ui setUpViewFor: presenter.
 	presenter attachToView.
 	presenter attachToModel] should beDoneInOrder.
 	presenter ui should be: ui.

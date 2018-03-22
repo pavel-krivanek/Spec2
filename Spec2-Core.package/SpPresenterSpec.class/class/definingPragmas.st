@@ -1,0 +1,3 @@
+testing
+definingPragmas
+	self subclassResponsibility 

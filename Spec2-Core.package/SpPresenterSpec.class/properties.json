@@ -1,11 +1,15 @@
 {
 	"commentStamp" : "",
-	"super" : "SpPresenterClassContext",
+	"super" : "Object",
 	"category" : "Spec2-Core-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "SpParentPresenterContext",
+	"instvars" : [
+		"contexts",
+		"priority",
+		"definingMethod"
+	],
+	"name" : "SpPresenterSpec",
 	"type" : "normal"
 }
