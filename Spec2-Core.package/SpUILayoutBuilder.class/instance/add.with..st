@@ -3,8 +3,7 @@ add: childPresenter with: layoutBlock
 
 	presenter buildChild: childPresenter.
 	
-	self layoutChild: childPresenter with: layoutBlock.
+	self layoutChildView: childPresenter view with: layoutBlock.
 	
-	self addChildViewFrom: childPresenter 
-	
+	self addChildView: childPresenter view
 	
