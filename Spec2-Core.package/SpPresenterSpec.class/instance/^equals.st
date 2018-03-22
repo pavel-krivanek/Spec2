@@ -6,4 +6,4 @@ comparing
 		ifTrue: [ ^ true ].
 	self class = anObject class
 		ifFalse: [ ^ false ].
-	^ definingMethod = anObject definingMethod
+	^ definingMethod == anObject definingMethod

@@ -1,8 +1,8 @@
 printing
 printOn: aStream
 	super printOn: aStream.
-	
-	aStream 
+
+	aStream
 		nextPut: $(;
-		nextPutAll: presenterStyle;
+		nextPutAll: definingMethod name;
 		nextPut: $)

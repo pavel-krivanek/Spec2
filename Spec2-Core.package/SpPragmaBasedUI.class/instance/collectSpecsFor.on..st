@@ -5,6 +5,7 @@ collectSpecsFor: aPresenterClass on: aDictionary
 	aPresenterClass methodsDo: [ :eachMethod | 
 		self createSpecFrom: eachMethod andDo: [:spec | 
 			aDictionary 
-				at: spec class 
-				ifPresent: [ :container | container add: spec ]
+				at: spec class 	ifPresent: [ :container | 
+					(container anySatisfy: [:existing | existing overrides: spec]) 
+						ifFalse: [container add: spec] ]
 				ifAbsentPut: [ OrderedCollection with: spec ]]]
