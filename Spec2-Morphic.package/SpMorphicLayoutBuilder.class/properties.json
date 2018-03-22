@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SpLayoutBuilder",
+	"category" : "Spec2-Morphic",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpMorphicLayoutBuilder",
+	"type" : "normal"
+}
