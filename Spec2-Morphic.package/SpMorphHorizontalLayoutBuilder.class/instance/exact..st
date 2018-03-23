@@ -1,4 +1,5 @@
 layout strategies
 exact: aNumber
 
-	morph width: aNumber
+	morph hResizing: #rigid.
+	morph width: aNumber.
