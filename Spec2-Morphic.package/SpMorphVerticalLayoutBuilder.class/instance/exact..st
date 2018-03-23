@@ -1,4 +1,4 @@
-layout strategies
+common layout
 exact: aNumber
 
 	morph vResizing: #rigid.

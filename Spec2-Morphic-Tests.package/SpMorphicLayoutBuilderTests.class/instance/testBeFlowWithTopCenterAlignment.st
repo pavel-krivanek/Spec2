@@ -1,4 +1,4 @@
-tests
+tests-flow layout
 testBeFlowWithTopCenterAlignment
 
 	layout beFlow alignTopCenter.

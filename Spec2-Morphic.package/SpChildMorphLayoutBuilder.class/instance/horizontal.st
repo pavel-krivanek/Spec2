@@ -1,3 +1,3 @@
 layout strategies
 horizontal
-	^SpMorphHorizontalLayoutBuilder on: morph
+	^SpMorphHorizontalLayoutBuilder on: morph parent: parentMorph

@@ -1,4 +1,4 @@
-layout strategies
+common layout
 fitContent
 
 	morph hResizing: #shrinkWrap

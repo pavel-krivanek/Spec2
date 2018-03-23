@@ -1,4 +1,4 @@
-tests
+tests-flow layout
 testBeFlowWithBottomLeftAlignment
 
 	layout beFlow alignBottomLeft.

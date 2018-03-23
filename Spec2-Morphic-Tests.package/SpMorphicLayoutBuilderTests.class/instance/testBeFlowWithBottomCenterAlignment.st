@@ -1,4 +1,4 @@
-tests
+tests-flow layout
 testBeFlowWithBottomCenterAlignment
 
 	layout beFlow alignBottomCenter.

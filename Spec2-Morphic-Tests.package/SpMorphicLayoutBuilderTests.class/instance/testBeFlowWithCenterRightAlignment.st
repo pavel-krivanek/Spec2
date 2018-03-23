@@ -1,4 +1,4 @@
-tests
+tests-flow layout
 testBeFlowWithCenterRightAlignment
 
 	layout beFlow alignCenterRight.

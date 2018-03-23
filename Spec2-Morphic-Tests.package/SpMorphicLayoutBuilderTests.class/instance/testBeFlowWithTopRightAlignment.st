@@ -1,4 +1,4 @@
-tests
+tests-flow layout
 testBeFlowWithTopRightAlignment
 
 	layout beFlow alignTopRight.

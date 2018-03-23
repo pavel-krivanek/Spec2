@@ -1,4 +1,4 @@
-tests
+tests-flow layout
 testBeHorizontalFlow
 
 	layout beFlow horizontal.

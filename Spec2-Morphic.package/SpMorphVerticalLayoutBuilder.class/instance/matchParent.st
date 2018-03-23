@@ -1,4 +1,4 @@
-layout strategies
+common layout
 matchParent
 
 	morph vResizing: #spaceFill
