@@ -1,3 +1,3 @@
-layout strategies
+layout-strategies
 beFlow
 	self subclassResponsibility 

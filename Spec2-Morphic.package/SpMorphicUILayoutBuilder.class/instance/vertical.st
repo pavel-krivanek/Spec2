@@ -1,3 +1,3 @@
-layout strategies
+layout-strategies
 vertical
 	view listDirection: #topToBottom
