@@ -1,0 +1,3 @@
+layout-strategies
+beProportional
+	view changeProportionalLayout

@@ -1,7 +1,7 @@
-flow layout
+assertions
 assertHorizontalFlowLayout
 
-	(parentMorph layoutPolicy class = TableLayout
+	(parentMorph layoutPolicy isTableLayout
 		and: [parentMorph listDirection = #leftToRight]) 
 			ifTrue: [ ^self].
 			

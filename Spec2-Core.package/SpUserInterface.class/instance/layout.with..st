@@ -1,4 +1,4 @@
 layout views
 layout: aPresenter with: aBlock
 
-	aBlock value: (self createLayoutBuilderOn: aPresenter)
+	(self createLayoutBuilderOn: aPresenter) buildBy: aBlock

@@ -1,7 +1,7 @@
-flow layout
+assertions
 assertVerticalFlowLayout
 
-	(parentMorph layoutPolicy class = TableLayout
+	(parentMorph layoutPolicy isTableLayout
 		and: [parentMorph listDirection = #topToBottom]) 
 			ifTrue: [ ^self].
 			
