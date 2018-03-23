@@ -1,3 +1,4 @@
 layout-strategies
 beFlow
-	view changeTableLayout
+	view changeTableLayout.
+	^self horizontal
