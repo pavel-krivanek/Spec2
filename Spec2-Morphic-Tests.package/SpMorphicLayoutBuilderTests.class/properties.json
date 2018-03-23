@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Spec2-Morphic-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"layout",
+		"morph"
+	],
+	"name" : "SpMorphicLayoutBuilderTests",
+	"type" : "normal"
+}
