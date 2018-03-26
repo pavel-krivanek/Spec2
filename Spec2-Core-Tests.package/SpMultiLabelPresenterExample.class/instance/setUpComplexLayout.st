@@ -9,6 +9,7 @@ setUpComplexLayout
 			layout beFlow horizontal.
 			p horizontal matchParent.
 			p vertical fitContent.
+			
 			layout add: label1 with: [:c |
 				c horizontal matchParent.
 				c vertical fitContent]].
