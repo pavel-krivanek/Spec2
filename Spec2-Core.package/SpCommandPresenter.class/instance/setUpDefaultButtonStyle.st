@@ -11,7 +11,7 @@ setUpDefaultButtonStyle
 	ui layout: self with: [ :layout |
 		layout beFlow horizontal.
 		
-		model icon ifNotNil: [ :icon | 
-			ui add: (SpImagePresenter on: icon) with: [ :c | ]].
+		model defaultMenuIcon ifNotNil: [ :icon | 
+			layout add: (SpImagePresenter on: icon) with: [ :c | ]].
 		
-		ui add: (SpLabelPresenter textual: model menuItemName) with: [ :c | ] ]
+		layout add: (SpLabelPresenter textual: model defaultMenuItemName) with: [ :c | ] ]
