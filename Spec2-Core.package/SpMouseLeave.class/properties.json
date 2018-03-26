@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SpUIEvent",
+	"category" : "Spec2-Core-Presenters",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpMouseLeave",
+	"type" : "normal"
+}

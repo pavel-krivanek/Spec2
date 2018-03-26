@@ -6,7 +6,8 @@ setUpDefaultButtonStyle
 	view borderWidth: 1.
 	
 	ui when: SpMouseDown on: view do: [ self applyStyle: #pressedButton ].
-	ui when: SpMouseUp on: view do: [ self applyStyle: #defaultButton ].
+	ui when: SpMouseUp on: view do: [ self resetStyle ].
+"	ui when: SpMouseLeave on: view do: [ self resetStyle ]."
 	
 	ui layout: self with: [ :layout |
 		layout beFlow horizontal.
