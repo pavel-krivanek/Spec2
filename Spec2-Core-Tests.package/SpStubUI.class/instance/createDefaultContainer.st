@@ -1,0 +1,3 @@
+presenter building
+createDefaultContainer
+	^SpCompositeViewStub new

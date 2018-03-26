@@ -2,7 +2,7 @@ running
 setUp
 	super setUp.
 	
-	morph := Morph new.
+	morph := PanelMorph new.
 	
 	layout := SpMorphicUILayoutBuilder new.
 	layout view: morph

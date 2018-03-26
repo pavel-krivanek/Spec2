@@ -1,4 +1,4 @@
 building
 buildBy: aBlock
-	aBlock value: self.
+	aBlock cull: self.
 	"Here subclasses can perform extra logic to complete layout changes"
