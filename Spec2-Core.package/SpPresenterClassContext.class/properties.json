@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"presenterClass",
-		"presenterStyle"
+		"presenterClass"
 	],
 	"name" : "SpPresenterClassContext",
 	"type" : "normal"

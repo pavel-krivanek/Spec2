@@ -1,5 +1,5 @@
 styles
 setUpDefaultStyle
-	<defaultStyle>
+	<styleSpec>
 	
 	self subclassResponsibility 

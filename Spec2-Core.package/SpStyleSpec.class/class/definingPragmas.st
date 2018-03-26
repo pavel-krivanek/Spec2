@@ -1,3 +1,3 @@
 testing
 definingPragmas
-	^#(defaultStyle style:)
+	^#(styleSpec)

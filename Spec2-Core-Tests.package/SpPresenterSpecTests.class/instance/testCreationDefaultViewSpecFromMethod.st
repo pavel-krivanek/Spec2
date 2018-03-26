@@ -1,6 +1,5 @@
 tests
 testCreationDefaultViewSpecFromMethod
-	<defaultView>
 	
 	spec := SpViewSpec createFromMethod: self class >> testSelector.
 	

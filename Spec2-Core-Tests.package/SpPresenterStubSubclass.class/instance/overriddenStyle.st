@@ -1,5 +1,5 @@
 styles
 overriddenStyle
-	<defaultStyle>
+	<styleSpec>
 	
 	"New version of style in subclass"

@@ -1,6 +1,6 @@
 styles
 setUpDefaultStyle
-	<defaultStyle>
+	<styleSpec>
 	
 	ui layout: self with: [:layout |
 		layout beFlow vertical.

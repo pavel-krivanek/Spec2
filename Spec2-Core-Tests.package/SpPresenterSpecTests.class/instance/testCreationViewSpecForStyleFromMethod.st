@@ -1,6 +1,6 @@
 tests
 testCreationViewSpecForStyleFromMethod
-	<view: #specialStyle>
+	<forStyle: #specialStyle>
 	
 	spec := SpViewSpec createFromMethod: self class >> testSelector.
 	

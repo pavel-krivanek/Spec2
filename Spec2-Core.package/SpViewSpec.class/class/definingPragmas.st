@@ -1,3 +1,3 @@
 testing
 definingPragmas
-	^#(defaultView view:)
+	^#(viewSpec)

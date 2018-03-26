@@ -1,6 +1,6 @@
 *Spec2-Core-Tests
 setUpRedStyleInsideMultiLabelsExample
-	<defaultStyle>
+	<styleSpec>
 	<forParent: #SpMultiLabelPresenterExample>
 	
 	view color: Color red

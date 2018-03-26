@@ -1,6 +1,7 @@
 styles
 setUpComplexLayout
-	<style: #complexLayout>
+	<styleSpec>
+	<forStyle: #complexLayout>
 	
 	ui layout: self with: [:layout |
 		layout beFlow vertical.

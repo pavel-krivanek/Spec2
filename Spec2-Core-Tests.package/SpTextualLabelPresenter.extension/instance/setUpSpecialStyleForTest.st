@@ -1,6 +1,7 @@
 *Spec2-Core-Tests
 setUpSpecialStyleForTest
-	<style: #specialStyleForTest>
+	<styleSpec>
+	<forStyle: #specialStyleForTest>
 	
 	view color: Color red.
 	view backgroundColor: Color blue

@@ -1,6 +1,7 @@
 *Spec2-Core-Tests
 setUpBlueStyleInsideSpecialyStyledMultiLabelsExample
-	<defaultStyle>
-	<forParent: #SpMultiLabelPresenterExample style: #specialStyleForTest>
+	<styleSpec>
+	<forParent: #SpMultiLabelPresenterExample>
+	<forStyle: #specialStyleForTest>
 
 	view color: Color blue

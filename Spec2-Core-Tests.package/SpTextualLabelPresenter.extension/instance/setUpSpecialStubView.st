@@ -1,6 +1,7 @@
 *Spec2-Core-Tests
 setUpSpecialStubView
-	<view: #specialStyle>
+	<viewSpec>
+	<forStyle: #specialStyle>
 	<forStubUI>
 	
 	view := SpLabelViewStub named: #specialLabel

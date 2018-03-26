@@ -1,5 +1,6 @@
 *Spec2-Morphic
 setUpDefaultMorphicView
-	<defaultView>
+	<viewSpec>
+	<forMorphic>
 	
 	view := ImageMorph new

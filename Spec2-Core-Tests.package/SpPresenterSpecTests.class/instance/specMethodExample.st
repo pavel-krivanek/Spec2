@@ -1,5 +1,5 @@
 running
 specMethodExample
-	<defaultView>
+	<viewSpec>
 	
 	^#exampleSpecApplied

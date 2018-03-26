@@ -1,6 +1,5 @@
 tests
 testCreationDefaultStyleSpecFromMethod
-	<defaultStyle>
 	
 	spec := SpStyleSpec createFromMethod: self class >> testSelector.
 	

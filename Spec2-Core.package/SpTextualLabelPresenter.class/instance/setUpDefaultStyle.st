@@ -1,6 +1,6 @@
 styles
 setUpDefaultStyle
-	<defaultStyle>
+	<styleSpec>
 	
 	view color: Color black.
 	view backgroundColor: Color transparent

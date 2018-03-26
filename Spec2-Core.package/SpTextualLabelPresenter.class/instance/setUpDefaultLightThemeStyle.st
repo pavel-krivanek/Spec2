@@ -1,6 +1,6 @@
 styles
 setUpDefaultLightThemeStyle
-	<defaultStyle>
+	<styleSpec>
 	<forTheme: #PharoLightTheme>
 	
 	self setUpDefaultStyle

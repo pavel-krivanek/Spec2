@@ -7,4 +7,3 @@ comparing
 	self class = anObject class
 		ifFalse: [ ^ false ].
 	^ presenterClass = anObject presenterClass
-		and: [ presenterStyle = anObject presenterStyle ]

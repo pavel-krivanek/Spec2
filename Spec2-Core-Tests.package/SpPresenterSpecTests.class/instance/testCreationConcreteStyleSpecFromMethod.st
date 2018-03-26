@@ -1,6 +1,6 @@
 tests
 testCreationConcreteStyleSpecFromMethod
-	<style: #specialStyle>
+	<forStyle: #specialStyle>
 	
 	spec := SpStyleSpec createFromMethod: self class >> testSelector.
 	

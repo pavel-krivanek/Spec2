@@ -1,5 +1,5 @@
 views
 setUpDefaultContainer
-	<defaultView>
+	<viewSpec>
 
 	view := ui createDefaulViewContainer
