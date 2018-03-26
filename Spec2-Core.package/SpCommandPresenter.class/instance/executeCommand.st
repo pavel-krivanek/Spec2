@@ -1,0 +1,4 @@
+initialization
+executeCommand
+	
+	model executeCommand

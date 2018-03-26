@@ -1,0 +1,3 @@
+accessing
+currentStyle
+	^ currentStyle

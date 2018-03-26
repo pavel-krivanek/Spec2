@@ -1,3 +1,3 @@
 testing
 isSuitableFor: aPresenter
-	^aPresenter style = presenterStyle
+	^aPresenter currentStyle = presenterStyle

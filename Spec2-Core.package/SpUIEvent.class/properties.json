@@ -5,14 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"ui",
-		"model",
-		"view",
-		"parent",
-		"mainStyle",
-		"currentStyle"
-	],
-	"name" : "SpPresenter",
+	"instvars" : [ ],
+	"name" : "SpUIEvent",
 	"type" : "normal"
 }

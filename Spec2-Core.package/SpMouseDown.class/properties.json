@@ -1,18 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "SpUIEvent",
 	"category" : "Spec2-Core-Presenters",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"ui",
-		"model",
-		"view",
-		"parent",
-		"mainStyle",
-		"currentStyle"
-	],
-	"name" : "SpPresenter",
+	"instvars" : [ ],
+	"name" : "SpMouseDown",
 	"type" : "normal"
 }
