@@ -1,4 +1,5 @@
 accessing
 presenter: aPresenter
 	presenter := aPresenter.
-	view := presenter view
+	ui := presenter ui.
+	viewContainer := presenter view

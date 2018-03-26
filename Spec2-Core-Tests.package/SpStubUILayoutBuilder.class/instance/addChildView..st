@@ -1,4 +1,4 @@
 private
 addChildView: aViewStub
 
-	view contents add: aViewStub
+	viewContainer contents add: aViewStub

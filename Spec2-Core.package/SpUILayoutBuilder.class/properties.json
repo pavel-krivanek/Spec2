@@ -6,8 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"view",
-		"presenter"
+		"presenter",
+		"ui",
+		"viewContainer"
 	],
 	"name" : "SpUILayoutBuilder",
 	"type" : "normal"

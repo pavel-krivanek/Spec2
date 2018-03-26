@@ -1,3 +1,3 @@
 layout-strategies
 beProportional
-	view changeProportionalLayout
+	viewContainer changeProportionalLayout

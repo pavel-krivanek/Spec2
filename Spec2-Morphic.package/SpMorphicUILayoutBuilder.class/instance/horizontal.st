@@ -1,4 +1,4 @@
 layout-strategies
 horizontal
-	view listDirection: #leftToRight.
-	view wrapDirection: #topToBottom
+	viewContainer listDirection: #leftToRight.
+	viewContainer wrapDirection: #topToBottom

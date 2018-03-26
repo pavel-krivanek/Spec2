@@ -1,3 +1,3 @@
 private
 addChildView: aMorph
-	view addMorphBack: aMorph
+	viewContainer addMorphBack: aMorph

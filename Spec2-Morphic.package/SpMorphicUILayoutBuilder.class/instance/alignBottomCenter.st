@@ -1,5 +1,5 @@
 layout-alignment
 alignBottomCenter
-	view 
+	viewContainer 
 		listCentering: #center;
 		wrapCentering: #bottomRight

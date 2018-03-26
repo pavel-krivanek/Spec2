@@ -1,3 +1,3 @@
 layout-strategies
 vertical
-	view listDirection: #topToBottom
+	viewContainer listDirection: #topToBottom

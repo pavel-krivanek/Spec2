@@ -2,4 +2,4 @@ views
 setUpDefaultContainer
 	<defaultView>
 
-	view := ui createDefaultContainer
+	view := ui createDefaulViewContainer
