@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "Announcement",
 	"category" : "Spec2-Core-Events",
 	"classinstvars" : [ ],
 	"pools" : [ ],
