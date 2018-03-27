@@ -1,4 +1,4 @@
 events
-when: anUIEvent on: aView do: handlerBlock
+when: anUIEvent on: aMorph do: handlerBlock
 	
-	anUIEvent whenTriggeredOnMorph: aView do: handlerBlock
+	aMorph on: anUIEvent morphicName send: #value to: handlerBlock
