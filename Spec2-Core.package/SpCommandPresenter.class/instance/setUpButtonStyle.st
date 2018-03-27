@@ -15,5 +15,7 @@ setUpButtonStyle
 		layout padding: 3@2.
 		
 		model icon ifNotNil: [ :icon | 
-			layout add: (SpImagePresenter on: icon) with: [ :c | c fitContent ]].
-		layout add: (SpLabelPresenter textual: model name) with: [ :c | c fitContent ] ]
+			layout add: (SpImagePresenter on: icon) with: [ :c | 
+				c fitContent; margin: 2@2 ]].
+		layout add: (SpLabelPresenter textual: model name) with: [ :c | 
+			c fitContent; margin: 2@2 ] ]
