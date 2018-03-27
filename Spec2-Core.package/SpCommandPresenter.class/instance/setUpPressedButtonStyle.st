@@ -3,6 +3,6 @@ setUpPressedButtonStyle
 	<styleSpec>
 	<forStyle: #pressedButton>
 	
-	self setUpDefaultButtonStyle.
+	self setUpButtonStyle.
 	
 	view color: self lightSelectionColor

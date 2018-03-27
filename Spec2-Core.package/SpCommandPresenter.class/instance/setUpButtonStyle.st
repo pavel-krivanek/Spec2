@@ -1,7 +1,7 @@
 styles-button
-setUpDefaultButtonStyle
+setUpButtonStyle
 	<styleSpec>
-	<forStyle: #defaultButton>
+	<forStyle: #button>
 	view borderColor: Smalltalk ui theme darkBaseColor.
 	view borderWidth: 1.
 	view color: Smalltalk ui theme lightBaseColor.
@@ -13,9 +13,9 @@ setUpDefaultButtonStyle
 	ui layout: self with: [ :layout |
 		layout beFlow horizontal.
 		
-		model defaultMenuIcon ifNotNil: [ :icon | 
+		model icon ifNotNil: [ :icon | 
 			layout add: (SpImagePresenter on: icon) with: [ :c | c fitContent ]].
 		
-		layout add: (SpLabelPresenter textual: model defaultMenuItemName) with: [ :c |
+		layout add: (SpLabelPresenter textual: model name) with: [ :c |
 			c horizontal matchParent.
 			c vertical fitContent ] ]

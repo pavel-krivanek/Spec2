@@ -2,4 +2,4 @@ styles-default
 setUpDefaultStyle
 	<styleSpec>
 	
-	self setUpDefaultButtonStyle
+	self setUpButtonStyle

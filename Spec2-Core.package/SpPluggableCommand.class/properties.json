@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "SpCommand",
+	"category" : "Spec2-Core-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"block",
+		"name",
+		"iconName"
+	],
+	"name" : "SpPluggableCommand",
+	"type" : "normal"
+}

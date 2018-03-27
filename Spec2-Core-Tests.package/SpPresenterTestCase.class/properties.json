@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "SpPragmaBasedUI",
-	"category" : "Spec2-Core-Tests-StubUI",
+	"super" : "TestCase",
+	"category" : "Spec2-Core-Tests-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"simulationAnnouncer"
+		"ui",
+		"presenter"
 	],
-	"name" : "SpStubUI",
+	"name" : "SpPresenterTestCase",
 	"type" : "normal"
 }
