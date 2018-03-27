@@ -13,6 +13,8 @@ setUpDefaultButtonStyle
 		layout beFlow horizontal.
 		
 		model defaultMenuIcon ifNotNil: [ :icon | 
-			layout add: (SpImagePresenter on: icon) with: [ :c | ]].
+			layout add: (SpImagePresenter on: icon) with: [ :c | c fitContent ]].
 		
-		layout add: (SpLabelPresenter textual: model defaultMenuItemName) with: [ :c | ] ]
+		layout add: (SpLabelPresenter textual: model defaultMenuItemName) with: [ :c |
+			c horizontal matchParent.
+			c vertical fitContent ] ]
