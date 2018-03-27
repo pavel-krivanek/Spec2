@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "SpUILayoutBuilder",
-	"category" : "Spec2-Morphic",
+	"category" : "Spec2-Morphic-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

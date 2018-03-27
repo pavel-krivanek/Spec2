@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "Spec2-Morphic-UI",
+	"super" : "NewValueHolder",
+	"category" : "Spec2-Core-Models",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"parentMorph",
-		"morph"
+		"aspect"
 	],
-	"name" : "SpMorphLayoutBuilder",
+	"name" : "SpAspectValueHolder",
 	"type" : "normal"
 }
