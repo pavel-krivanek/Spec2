@@ -15,7 +15,4 @@ setUpButtonStyle
 		
 		model icon ifNotNil: [ :icon | 
 			layout add: (SpImagePresenter on: icon) with: [ :c | c fitContent ]].
-		
-		layout add: (SpLabelPresenter textual: model name) with: [ :c |
-			c horizontal matchParent.
-			c vertical fitContent ] ]
+		layout add: (SpLabelPresenter textual: model name) with: [ :c | c fitContent ] ]

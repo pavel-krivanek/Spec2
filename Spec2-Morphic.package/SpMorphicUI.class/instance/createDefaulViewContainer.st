@@ -1,3 +1,7 @@
 presenter building
 createDefaulViewContainer
-	^PanelMorph new
+	^BorderedMorph new
+		color: Color transparent;
+		borderColor: Color transparent;
+		borderWidth: 0;
+		clipSubmorphs: true
