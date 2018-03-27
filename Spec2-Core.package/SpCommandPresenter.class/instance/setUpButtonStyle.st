@@ -11,8 +11,8 @@ setUpButtonStyle
 	ui when: SpMouseLeave on: view do: [ currentStyle = #pressedButton ifTrue: [self resetStyle] ].
 	
 	ui layout: self with: [ :layout |
-		layout beFlow horizontal.
-		layout alignCenter.
+		layout beFlow horizontal; alignCenter.
+		layout padding: 3@2.
 		
 		model icon ifNotNil: [ :icon | 
 			layout add: (SpImagePresenter on: icon) with: [ :c | c fitContent ]].
