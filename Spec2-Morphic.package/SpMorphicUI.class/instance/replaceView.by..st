@@ -8,6 +8,7 @@ replaceView: existingMorph by: newMorph
 	existingMorph layoutFrame ifNotNil: [ 
 		newMorph layoutFrame: existingMorph layoutFrame ].
 	
-	existingMorph eventHandler ifNotNil: [ :handler | 
-		handler prepareForSafeMorphReplacementInSpec].
-	existingMorph owner replaceSubmorph: existingMorph by: newMorph
+	existingMorph owner replaceSubmorph: existingMorph by: newMorph.
+	existingMorph becomeForward: newMorph 
+	"Become is required to ensure that new morph will process upcoming UI events which correspond to old morph. For example mouseUp can be evaluated just after click. 
+	It happens when presenter replaces view for new style just inside event procesing logic"
