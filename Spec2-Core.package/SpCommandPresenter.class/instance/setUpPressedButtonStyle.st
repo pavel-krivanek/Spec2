@@ -1,4 +1,4 @@
-styles
+styles-button
 setUpPressedButtonStyle
 	<styleSpec>
 	<forStyle: #pressedButton>

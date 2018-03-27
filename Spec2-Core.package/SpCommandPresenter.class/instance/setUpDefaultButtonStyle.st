@@ -1,4 +1,4 @@
-styles
+styles-button
 setUpDefaultButtonStyle
 	<styleSpec>
 	<forStyle: #defaultButton>
