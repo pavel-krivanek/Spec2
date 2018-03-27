@@ -12,6 +12,7 @@ setUpButtonStyle
 	
 	ui layout: self with: [ :layout |
 		layout beFlow horizontal.
+		layout alignCenter.
 		
 		model icon ifNotNil: [ :icon | 
 			layout add: (SpImagePresenter on: icon) with: [ :c | c fitContent ]].
