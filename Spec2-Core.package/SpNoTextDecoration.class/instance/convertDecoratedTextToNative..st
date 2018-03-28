@@ -1,0 +1,4 @@
+operations
+convertDecoratedTextToNative: decoratedString
+
+	^decoratedString

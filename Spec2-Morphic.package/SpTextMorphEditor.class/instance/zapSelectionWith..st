@@ -10,6 +10,6 @@ zapSelectionWith: aText
 	newText := self textDecoration insertCharacters: aText into: self nativeText from: start to: stop.
 	nativeStart := self textDecoration convertDecoratedPosition: start toNativeOn: self text.
 	decoratedEnd := self textDecoration convertNativePosition: nativeStart + aText size toDecoratedOn: self text.
-	textArea privateReplaceFrom: 0 to: newText size - 1 with: newText asText.
+	textArea privateReplaceFrom: 1 to: self text size with: newText asText.
 	self markIndex: start pointIndex: decoratedEnd.
 	self editingState previousInterval: self selectionInterval 

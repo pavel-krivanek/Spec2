@@ -1,3 +1,6 @@
 initialization
 createRubTextMorph
-	^textModel newTextField 
+"	^textModel newTextField "
+	^textModel newScrolledText
+		scrollbarsShowNever;
+		yourself
