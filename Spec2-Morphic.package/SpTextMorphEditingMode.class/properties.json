@@ -1,16 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "SpContainerMorph",
+	"super" : "RubEditingMode",
 	"category" : "Spec2-Morphic-Views",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"textModel",
-		"textMorph",
-		"textSpec",
-		"textDecorator"
+		"textMorph"
 	],
-	"name" : "SpTextMorph",
+	"name" : "SpTextMorphEditingMode",
 	"type" : "normal"
 }

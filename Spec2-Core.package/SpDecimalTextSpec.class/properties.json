@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "SpTextSpec",
+	"category" : "Spec2-Core-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"decimalSeparators",
+		"decimalDigitsCount"
+	],
+	"name" : "SpDecimalTextSpec",
+	"type" : "normal"
+}
