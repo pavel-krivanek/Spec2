@@ -1,0 +1,3 @@
+running
+createTextDecoration
+	^SpSmartNumberDecoration new

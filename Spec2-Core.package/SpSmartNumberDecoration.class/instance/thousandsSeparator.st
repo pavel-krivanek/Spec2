@@ -1,0 +1,4 @@
+accessing
+thousandsSeparator
+	
+	^ thousandsSeparator

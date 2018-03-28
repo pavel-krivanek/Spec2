@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SpTextDecoration",
+	"category" : "Spec2-Core-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"thousandsSeparator"
+	],
+	"name" : "SpSmartNumberDecoration",
+	"type" : "normal"
+}
