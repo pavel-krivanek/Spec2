@@ -1,19 +1,19 @@
 accessing-selection
-zapSelectionWith: aText
+zapSelectionWith: newText
 	"The main logic is copied from superclass and adopted for decoration and validation"
-	| start stop newText nativeStart decoratedEnd |
+	| start stop decoratedText nativeStart decoratedEnd |
 	start := self startIndex.
 	stop := self stopIndex.
-	(self validateModificationBy: aText) ifFalse: [ ^self ].
-	aText isEmpty ifTrue: [ self prepareEmphasisForTextDeletionFrom: start to: stop].
+	(self validateModificationBy: newText) ifFalse: [ ^self ].
+	newText isEmpty ifTrue: [ self prepareEmphasisForTextDeletionFrom: start to: stop].
 
-	newText := self textDecoration 
-		decorateInsertionOf: aText into: self nativeText from: start to: stop - 1.
+	decoratedText := self textDecoration 
+		decorateInsertionOf: newText into: self nativeText from: start to: stop - 1.
 	nativeStart := self textDecoration 
 		convertDecoratedPosition: start toNativeOn: self text.
 	decoratedEnd := self textDecoration 
-		convertNativePosition: nativeStart + aText size toDecoratedOn: self text.
+		convertNativePosition: nativeStart + newText size toDecoratedOn: self text.
 	
-	textArea privateReplaceFrom: 1 to: self text size with: newText asText.
+	textArea privateReplaceFrom: 1 to: self text size with: decoratedText asText.
 	self markIndex: start pointIndex: decoratedEnd.
 	self editingState previousInterval: self selectionInterval
