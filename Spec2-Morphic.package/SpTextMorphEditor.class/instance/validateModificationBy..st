@@ -7,5 +7,5 @@ validateModificationBy: aText
 	(start = stop and: [ aText size = 0 ]) ifTrue: [ ^false].
 
 	^self textSpec 
-		validateModificationOf: self nativeText asString
-		from: start to: stop by: aText
+		validateInsertionOf: aText into: self nativeText asString
+		from: start to: stop - 1

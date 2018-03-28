@@ -1,0 +1,3 @@
+running
+createTextDecoration
+	^SpNoTextDecoration new
