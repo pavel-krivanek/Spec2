@@ -2,6 +2,6 @@ initialization
 attachToView
 	
 	view textSpec: textSpec.
-	view textDecorator: textDecorator.
+	view textDecoration: textDecoration.
 	
 	view showNewText: model

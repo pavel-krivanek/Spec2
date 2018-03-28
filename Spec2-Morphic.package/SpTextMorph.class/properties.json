@@ -9,7 +9,7 @@
 		"textModel",
 		"textMorph",
 		"textSpec",
-		"textDecorator"
+		"textDecoration"
 	],
 	"name" : "SpTextMorph",
 	"type" : "normal"

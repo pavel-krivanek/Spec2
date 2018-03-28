@@ -5,3 +5,4 @@ initialize
 	self initializeTextMorph.
 	self addMorphBack: textMorph.
 	textSpec := SpAnyTextSpec new.
+	textDecoration := SpNoTextDecoration new

@@ -7,7 +7,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"textSpec",
-		"textDecorator"
+		"textDecoration"
 	],
 	"name" : "SpTextInputPresenter",
 	"type" : "normal"
