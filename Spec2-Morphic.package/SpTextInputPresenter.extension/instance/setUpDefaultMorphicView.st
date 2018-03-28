@@ -3,4 +3,4 @@ setUpDefaultMorphicView
 	<viewSpec>
 	<forMorphic>
 	
-	view := SpTextMorph new
+	view := SpTextFieldMorph new

@@ -1,0 +1,3 @@
+initialization
+createRubTextMorph
+	^textModel newTextField 

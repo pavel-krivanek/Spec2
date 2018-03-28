@@ -4,12 +4,10 @@ initialize
 	self changeTableLayout.
 	textModel := RubScrolledTextModel new.
 	textModel interactionModel: self.
-	textMorph := textModel newScrolledText.
+	textMorph := self createRubTextMorph.
 	textMorph
 		vResizing: #spaceFill;
-		hResizing: #spaceFill;
-		hScrollbarShowNever;
-		vScrollbarShowNever
+		hResizing: #spaceFill
 "		beWrapped
 		editingMode: self editingMode".
 	self addMorphBack: textMorph
