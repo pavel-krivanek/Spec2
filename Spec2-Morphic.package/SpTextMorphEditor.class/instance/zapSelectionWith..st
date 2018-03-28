@@ -7,9 +7,13 @@ zapSelectionWith: aText
 	(self validateModificationBy: aText) ifFalse: [ ^self ].
 	aText isEmpty ifTrue: [ self prepareEmphasisForTextDeletionFrom: start to: stop].
 
-	newText := self textDecoration decorateInsertionOf: aText into: self nativeText from: start to: stop - 1.
-	nativeStart := self textDecoration convertDecoratedPosition: start toNativeOn: self text.
-	decoratedEnd := self textDecoration convertNativePosition: nativeStart + aText size toDecoratedOn: self text.
+	newText := self textDecoration 
+		decorateInsertionOf: aText into: self nativeText from: start to: stop - 1.
+	nativeStart := self textDecoration 
+		convertDecoratedPosition: start toNativeOn: self text.
+	decoratedEnd := self textDecoration 
+		convertNativePosition: nativeStart + aText size toDecoratedOn: self text.
+	
 	textArea privateReplaceFrom: 1 to: self text size with: newText asText.
 	self markIndex: start pointIndex: decoratedEnd.
-	self editingState previousInterval: self selectionInterval 
+	self editingState previousInterval: self selectionInterval
