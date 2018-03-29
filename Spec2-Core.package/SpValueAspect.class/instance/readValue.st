@@ -1,3 +1,3 @@
-testing
-matches: aString
+operations
+readValue
 	self subclassResponsibility 

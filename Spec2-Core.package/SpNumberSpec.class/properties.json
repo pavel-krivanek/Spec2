@@ -1,15 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "SpValueSpec",
 	"category" : "Spec2-Core-Models",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name",
-		"description",
-		"valueSpec"
+		"minValue",
+		"maxValue"
 	],
-	"name" : "SpValueAspect",
+	"name" : "SpNumberSpec",
 	"type" : "normal"
 }

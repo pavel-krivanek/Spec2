@@ -1,0 +1,3 @@
+operations
+printValue: valueString
+	^valueString

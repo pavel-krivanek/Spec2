@@ -1,15 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "SpValueAspect",
 	"category" : "Spec2-Core-Models",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name",
-		"description",
-		"valueSpec"
+		"actualAspect"
 	],
-	"name" : "SpValueAspect",
+	"name" : "SpPrintedValueAspect",
 	"type" : "normal"
 }
