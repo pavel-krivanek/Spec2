@@ -1,0 +1,1 @@
+I match any single line string and reject any multiline strings (including eigther cr or lf)
