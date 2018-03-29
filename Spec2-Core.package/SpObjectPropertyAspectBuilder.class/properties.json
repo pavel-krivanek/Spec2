@@ -1,15 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "SpValueAspect",
+	"super" : "Object",
 	"category" : "Spec2-Core-Models",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"object",
-		"valueGetter",
-		"valueSetter"
+		"aspect"
 	],
-	"name" : "SpObjectPropertyAspect",
+	"name" : "SpObjectPropertyAspectBuilder",
 	"type" : "normal"
 }
