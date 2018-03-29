@@ -5,5 +5,4 @@ testCreationByBuilderWithCustomSetter
 	
 	aspect := (2@3) aspect x; valueSetter: #setX:; build.
 	
-	self assert: aspect valueGetter equals: #x.
 	self assert: aspect valueSetter equals: #setX:

@@ -6,6 +6,6 @@ testCreationByBuilder
 	aspect := (2@3) aspect x build.
 	
 	self assert: aspect class equals: SpObjectPropertyAspect.
-	self assert: aspect valueGetter equals: #x.
+	self assert: aspect valueGetter selector equals: #x.
 	self assert: aspect valueSetter equals: #x:.
 	self assert: aspect name equals: #x

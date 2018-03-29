@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"object",
-		"aspect"
+		"aspect",
+		"isReadOnly"
 	],
 	"name" : "SpObjectPropertyAspectBuilder",
 	"type" : "normal"
