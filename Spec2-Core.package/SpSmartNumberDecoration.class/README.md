@@ -14,6 +14,6 @@ Also I take into account possible decimal separator:
 
 	SpSmartNumberDecoration new convertNativeTextToDecorated: '12000.12'. " => 12 000.12"
 	SpSmartNumberDecoration new convertDecoratedTextToNative: '12 000.12'.	" => 12000.12"	 
-			
+
 Instance Variables
 	thousandsSeparator:		<String>
