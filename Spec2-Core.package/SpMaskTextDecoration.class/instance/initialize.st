@@ -2,4 +2,5 @@ initialization
 initialize 
 	super initialize.
 	
-	thousandsSeparator := ' '
+	asterix := $*.
+	mask := 'undefined mask'

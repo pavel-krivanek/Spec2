@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "SpTextDecoration",
+	"category" : "Spec2-Core-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mask",
+		"asterix"
+	],
+	"name" : "SpMaskTextDecoration",
+	"type" : "normal"
+}

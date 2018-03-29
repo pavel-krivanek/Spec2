@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SpTextDecorationTestCase",
+	"category" : "Spec2-Core-Tests-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpMaskTextDecorationTests",
+	"type" : "normal"
+}
