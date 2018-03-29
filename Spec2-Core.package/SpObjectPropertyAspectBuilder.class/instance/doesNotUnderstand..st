@@ -3,8 +3,6 @@ doesNotUnderstand: aMessage
 
 	aspect 
 		ifNil: [ 
-			aspect := SpObjectPropertyAspect of: object getter: aMessage.
+			self createAspectFrom: aMessage.
 			aspect name: aMessage printString ]
 		ifNotNil: [ aMessage sendTo: aspect]
-	
-	
