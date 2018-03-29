@@ -7,6 +7,6 @@ validateModificationBy: aText
 	(start = stop and: [ aText size = 0 ]) ifTrue: [ ^false].
 
 	^self textSpec 
-		validateInsertionOf: aText into: self nativeText asString
+		validateInsertionOf: aText asString into: self nativeText asString
 		from: (self textDecoration convertDecoratedPosition: start toNativeOn: self text) 
 		to: (self textDecoration convertDecoratedPosition: stop - 1 toNativeOn: self text)

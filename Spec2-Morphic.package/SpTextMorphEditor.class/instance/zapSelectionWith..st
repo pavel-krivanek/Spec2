@@ -4,7 +4,7 @@ zapSelectionWith: newText
 	| start stop decoratedText nativeStart decoratedEnd |
 	start := self startIndex.
 	stop := self stopIndex.
-	(self validateModificationBy: newText) ifFalse: [ ^self ].
+	(self validateModificationBy: newText) ifFalse: [ ^self ].	
 	newText isEmpty ifTrue: [ self prepareEmphasisForTextDeletionFrom: start to: stop].
 
 	decoratedText := self textDecoration 

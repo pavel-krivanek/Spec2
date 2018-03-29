@@ -12,5 +12,8 @@ deleteCharactersFrom: decoratedString startingAt: startIndex to: stopIndex
 			(decoratedStream position between: startIndex and: stopIndex) ifTrue: [ 
 				nextMaskChar = asterix ifTrue: [ nextChar := asterix ]].
 			out nextPut: nextChar ].
-		[ decoratedStream atEnd ] whileFalse: [ out nextPut: decoratedStream next ]
+		[ decoratedStream atEnd ] whileFalse: [ 
+			out nextPut: decoratedStream next.
+			maskStream next ].
+		[ maskStream atEnd ] whileFalse: [ out nextPut: maskStream next ]
 	]
