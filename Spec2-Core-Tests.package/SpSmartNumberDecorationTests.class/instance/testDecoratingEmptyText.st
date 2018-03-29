@@ -4,4 +4,4 @@ testDecoratingEmptyText
 	| actual |
 	actual := decoration convertNativeTextToDecorated: ''.
 	
-	actual should equal: ''
+	self assert: actual equals: ''

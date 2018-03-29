@@ -4,4 +4,4 @@ testDecoratingTextWithTwoThousandthGroups
 	| actual |
 	actual := decoration convertNativeTextToDecorated: '10123000'.
 	
-	actual should equal: '10 123 000'
+	self assert: actual equals: '10 123 000'

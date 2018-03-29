@@ -1,5 +1,5 @@
 tests
-testInsertionDecoration
+testDecoratingInsertion
 	
 	| actual |
 	

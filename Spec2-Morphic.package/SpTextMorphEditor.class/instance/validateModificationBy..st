@@ -8,4 +8,5 @@ validateModificationBy: aText
 
 	^self textSpec 
 		validateInsertionOf: aText into: self nativeText asString
-		from: start to: stop - 1
+		from: (self textDecoration convertDecoratedPosition: start toNativeOn: self text) 
+		to: (self textDecoration convertDecoratedPosition: stop - 1 toNativeOn: self text)

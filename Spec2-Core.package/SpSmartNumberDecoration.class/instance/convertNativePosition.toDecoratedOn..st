@@ -10,5 +10,6 @@ convertNativePosition: index toDecoratedOn: aString
 		(thousandsSeparator includes: (aString at: i)) ifFalse: [ 
 			nativeIndex := nativeIndex + 1.
 		 ].
-		nativeIndex >= index ifTrue: [ ^i ]	
-	 ]
+		nativeIndex >= index ifTrue: [ ^i ]].
+	
+	self error: 'should not happens'

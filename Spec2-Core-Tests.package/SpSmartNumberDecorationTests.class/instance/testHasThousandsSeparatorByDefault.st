@@ -1,4 +1,4 @@
 tests
 testHasThousandsSeparatorByDefault
 	
-	decoration thousandsSeparator should equal: ' '
+	self assert: decoration thousandsSeparator equals: ' '

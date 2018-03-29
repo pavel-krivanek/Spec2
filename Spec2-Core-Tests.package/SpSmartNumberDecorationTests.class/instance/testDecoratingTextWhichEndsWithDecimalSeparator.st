@@ -4,4 +4,4 @@ testDecoratingTextWhichEndsWithDecimalSeparator
 	| actual |
 	actual := decoration convertNativeTextToDecorated: '10000.'.
 	
-	actual should equal: '10 000.'
+	self assert: actual equals: '10 000.'

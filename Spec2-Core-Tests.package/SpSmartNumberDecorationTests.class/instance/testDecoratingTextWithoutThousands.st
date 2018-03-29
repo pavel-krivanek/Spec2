@@ -4,4 +4,4 @@ testDecoratingTextWithoutThousands
 	| actual |
 	actual := decoration convertNativeTextToDecorated: '10'.
 	
-	actual should equal: '10'
+	self assert: actual equals: '10'
