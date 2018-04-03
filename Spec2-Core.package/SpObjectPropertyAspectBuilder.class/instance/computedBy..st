@@ -1,5 +1,4 @@
 accessing
 computedBy: aBlock
 
-	self createAspectFrom: aBlock.
-	aspect name: 'noname'
+	self createAspectFrom: aBlock
