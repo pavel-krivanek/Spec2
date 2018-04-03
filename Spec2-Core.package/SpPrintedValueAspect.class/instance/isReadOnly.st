@@ -1,0 +1,3 @@
+testing
+isReadOnly
+	^actualAspect isReadOnly

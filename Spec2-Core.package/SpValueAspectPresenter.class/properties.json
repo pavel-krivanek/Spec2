@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"aspectName"
+		"valuePresenter",
+		"namePresenter"
 	],
 	"name" : "SpValueAspectPresenter",
 	"type" : "normal"

@@ -1,5 +1,5 @@
 initialization
 createChildren
 	
-	aspectName := SpLabelPresenter textual: model aspectName.
-"	valueInput := SpLabelPresenter textual: model name."
+	namePresenter := SpLabelPresenter textual: model aspectName.
+	valuePresenter := SpTextInputPresenter on: model asTextValueHolder
