@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SpCompositePresenter",
+	"category" : "Spec2-Core-Presenters",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"aspectName"
+	],
+	"name" : "SpValueAspectPresenter",
+	"type" : "normal"
+}

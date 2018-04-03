@@ -1,3 +1,4 @@
 accessing
-aspect: anObject
-	aspect := anObject
+aspect: aValueAspect
+	aspect := aValueAspect.
+	self setUpInitialValue
