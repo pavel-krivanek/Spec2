@@ -2,5 +2,5 @@ initialize-release
 initialize 
 	super initialize.
 	
-	decimalSeparators := '.'.
+	decimalSeparators := '.,'.
 	decimalDigitsCount := 2

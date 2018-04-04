@@ -1,0 +1,3 @@
+operations
+printValue: aString
+	^ aString

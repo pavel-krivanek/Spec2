@@ -5,10 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"decoration",
-		"inputRestriction"
-	],
+	"instvars" : [ ],
 	"name" : "SpTextValueFormat",
 	"type" : "normal"
 }

@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"valueRestriction",
+		"restriction",
+		"printDecoration",
 		"inputPresenter"
 	],
 	"name" : "SpValueFormat",
