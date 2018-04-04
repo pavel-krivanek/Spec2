@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "SpValueSpec",
+	"super" : "SpValueFormat",
 	"category" : "Spec2-Core-Models",
 	"classinstvars" : [ ],
 	"pools" : [ ],

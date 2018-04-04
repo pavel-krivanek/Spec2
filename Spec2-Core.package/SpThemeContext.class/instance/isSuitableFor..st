@@ -1,3 +1,3 @@
 testing
 isSuitableFor: aPresenter
-	^UITheme current isKindOf: themeClass
+	^aPresenter ui theme isKindOf: themeClass

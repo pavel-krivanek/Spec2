@@ -1,3 +1,3 @@
 operations
 readValue
-	^valueSpec convertToString: actualAspect readValue
+	^valueFormat convertToString: actualAspect readValue

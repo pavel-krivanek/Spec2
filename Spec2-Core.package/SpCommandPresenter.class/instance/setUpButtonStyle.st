@@ -2,9 +2,9 @@ styles-button
 setUpButtonStyle
 	<styleSpec>
 	<forStyle: #button>
-	view borderColor: Smalltalk ui theme darkBaseColor.
+	view borderColor: ui theme darkBaseColor.
 	view borderWidth: 1.
-	view color: Smalltalk ui theme lightBaseColor.
+	view color: ui theme lightBaseColor.
 	
 	ui when: SpMouseDown on: view do: [ self applyStyle: #pressedButton ].
 	ui when: SpMouseUp on: view do: [ self resetStyle ].
