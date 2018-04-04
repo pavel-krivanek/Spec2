@@ -2,7 +2,7 @@ tests
 testDigitalStringWithTooMuchDecimalDigitsShouldBeNotValid
 
 	| actual |
-	spec decimalDigitsCount: 1.
-	actual := spec matches: '123.34'.
+	restriction decimalDigitsCount: 1.
+	actual := restriction matches: '123.34'.
 	
 	self deny: actual

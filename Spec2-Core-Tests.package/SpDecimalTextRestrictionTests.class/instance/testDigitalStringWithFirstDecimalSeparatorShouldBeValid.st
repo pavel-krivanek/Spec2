@@ -2,6 +2,6 @@ tests
 testDigitalStringWithFirstDecimalSeparatorShouldBeValid
 
 	| actual |
-	actual := spec matches: '.1'.
+	actual := restriction matches: '.1'.
 	
 	self assert: actual

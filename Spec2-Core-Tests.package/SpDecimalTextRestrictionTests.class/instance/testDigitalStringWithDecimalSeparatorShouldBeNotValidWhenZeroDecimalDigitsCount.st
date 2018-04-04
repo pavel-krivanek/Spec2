@@ -2,8 +2,8 @@ tests
 testDigitalStringWithDecimalSeparatorShouldBeNotValidWhenZeroDecimalDigitsCount
 
 	| actual |
-	spec decimalDigitsCount: 0.
+	restriction decimalDigitsCount: 0.
 	
-	actual := spec matches: '1.3'.
+	actual := restriction matches: '1.3'.
 	
 	self deny: actual

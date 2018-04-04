@@ -2,8 +2,8 @@ tests
 testDigitalStringWithSecondDecimalSeparatorShouldBeValid
 
 	| actual |
-	spec decimalSeparators: '.,'.
+	restriction decimalSeparators: '.,'.
 	
-	actual := spec matches: '1,3'.
+	actual := restriction matches: '1,3'.
 	
 	self assert: actual

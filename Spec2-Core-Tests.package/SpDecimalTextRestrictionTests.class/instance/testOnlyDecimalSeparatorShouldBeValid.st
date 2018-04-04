@@ -2,6 +2,6 @@ tests
 testOnlyDecimalSeparatorShouldBeValid
 
 	| actual |
-	actual := spec matches: '.'.
+	actual := restriction matches: '.'.
 	
 	self assert: actual

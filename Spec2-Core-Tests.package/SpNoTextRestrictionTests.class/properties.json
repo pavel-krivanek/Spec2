@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "SpTextSpecTestCase",
+	"super" : "SpValueRestrictionTestCase",
 	"category" : "Spec2-Core-Tests-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SpDigitalTextSpecTests",
+	"name" : "SpNoTextRestrictionTests",
 	"type" : "normal"
 }
