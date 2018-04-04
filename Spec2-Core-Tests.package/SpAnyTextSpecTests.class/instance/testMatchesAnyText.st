@@ -2,6 +2,6 @@ tests
 testMatchesAnyText
 
 	| actual |
-	actual := SpAnyTextSpec new matches: nil.
+	actual := SpNoTextRestriction new matches: nil.
 	
 	self assert: actual

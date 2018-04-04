@@ -9,6 +9,6 @@
 		"minValue",
 		"maxValue"
 	],
-	"name" : "SpNumberSpec",
+	"name" : "SpNumberValueFormat",
 	"type" : "normal"
 }

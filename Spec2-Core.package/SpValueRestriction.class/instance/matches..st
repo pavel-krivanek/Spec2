@@ -1,3 +1,3 @@
 testing
-matches: aString
+matches: anObject
 	self subclassResponsibility 

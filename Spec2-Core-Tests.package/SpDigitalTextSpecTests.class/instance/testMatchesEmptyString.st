@@ -2,6 +2,6 @@ tests
 testMatchesEmptyString
 
 	| actual |
-	actual := SpDigitalTextSpec new matches: ''.
+	actual := SpDigitalTextRestriction new matches: ''.
 	
 	self assert: actual

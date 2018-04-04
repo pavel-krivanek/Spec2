@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "DenisKudryashov 3/29/2018 15:09",
+	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "Spec2-Core-Models",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SpTextSpec",
+	"name" : "SpValueRestriction",
 	"type" : "normal"
 }

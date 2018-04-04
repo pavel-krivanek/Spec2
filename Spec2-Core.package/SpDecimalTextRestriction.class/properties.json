@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "DenisKudryashov 3/29/2018 15:14",
-	"super" : "SpTextSpec",
+	"super" : "SpTextRestriction",
 	"category" : "Spec2-Core-Models",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -9,6 +9,6 @@
 		"decimalSeparators",
 		"decimalDigitsCount"
 	],
-	"name" : "SpDecimalTextSpec",
+	"name" : "SpDecimalTextRestriction",
 	"type" : "normal"
 }

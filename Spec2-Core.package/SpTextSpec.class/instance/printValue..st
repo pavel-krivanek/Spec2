@@ -1,3 +1,0 @@
-operations
-printValue: valueString
-	^valueString

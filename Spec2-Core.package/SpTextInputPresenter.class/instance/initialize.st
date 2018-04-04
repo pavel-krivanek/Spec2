@@ -1,5 +1,5 @@
 initialization
 initialize
 	super initialize.
-	textSpec := SpAnyTextSpec new.
+	textSpec := SpNoTextRestriction new.
 	textDecoration := SpNoTextDecoration new

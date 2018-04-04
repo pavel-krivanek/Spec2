@@ -2,6 +2,6 @@ tests
 testNotMatchesStringWithAlmostOneNotDigitCharater
 
 	| actual |
-	actual := SpDigitalTextSpec new matches: '12 3'.
+	actual := SpDigitalTextRestriction new matches: '12 3'.
 	
 	self deny: actual

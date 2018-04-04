@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "SpValueFormat",
+	"category" : "Spec2-Core-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"decoration",
+		"inputRestriction"
+	],
+	"name" : "SpTextValueFormat",
+	"type" : "normal"
+}
