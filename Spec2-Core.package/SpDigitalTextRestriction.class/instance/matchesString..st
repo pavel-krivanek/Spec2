@@ -1,4 +1,4 @@
 testing
 matchesString: aString
 
-	^aString isAllDigits
+	^aString isEmpty or: [aString isAllDigits]

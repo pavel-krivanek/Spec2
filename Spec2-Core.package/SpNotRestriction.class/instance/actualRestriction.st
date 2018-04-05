@@ -1,0 +1,3 @@
+accessing
+actualRestriction
+	^ actualRestriction
