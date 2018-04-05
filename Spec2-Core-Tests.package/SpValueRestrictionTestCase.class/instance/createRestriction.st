@@ -1,0 +1,3 @@
+running
+createRestriction
+	self subclassResponsibility 

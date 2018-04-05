@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "DenisKudryashov 4/5/2018 14:14",
 	"super" : "SpValueRestriction",
 	"category" : "Spec2-Core-Models",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "SpNotRestriction",
+	"instvars" : [
+		"option2",
+		"option1"
+	],
+	"name" : "SpCompositeRestriction",
 	"type" : "normal"
 }

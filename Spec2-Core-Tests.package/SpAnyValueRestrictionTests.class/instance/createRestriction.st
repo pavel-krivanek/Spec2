@@ -1,0 +1,4 @@
+tests
+createRestriction
+
+	^SpAnyValueRestriction new

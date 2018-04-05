@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "SpValueRestrictionTestCase",
+	"super" : "SpTextValueRestrictionTestCase",
 	"category" : "Spec2-Core-Tests-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
