@@ -2,5 +2,5 @@ initialization
 initialize
 	super initialize.
 	
-	inputRestriction := SpAnyTextRestriction new.
-	textDecoration := SpNoTextDecoration new
+	inputRestriction := SpAnyTextRestriction default.
+	textDecoration := SpNoTextDecoration default

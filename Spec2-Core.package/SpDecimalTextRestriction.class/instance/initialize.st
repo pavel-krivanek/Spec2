@@ -1,6 +1,6 @@
-initialize-release
+initialization
 initialize 
 	super initialize.
 	
 	decimalSeparators := '.,'.
-	decimalDigitsCount := 2
+	decimalDigitsCount := Float infinity

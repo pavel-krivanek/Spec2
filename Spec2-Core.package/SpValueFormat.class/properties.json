@@ -2,7 +2,9 @@
 	"commentStamp" : "DenisKudryashov 3/29/2018 16:10",
 	"super" : "Object",
 	"category" : "Spec2-Core-Models",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"default"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [

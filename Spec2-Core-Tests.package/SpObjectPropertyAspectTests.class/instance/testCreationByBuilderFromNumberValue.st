@@ -5,8 +5,9 @@ testCreationByBuilderFromNumberValue
 	
 	aspect := (2@3) aspect x build.
 	
-	self assert: aspect restriction equals: SpAnyValueRestriction new & SpNilValueRestriction not.
-	self assert: aspect textFormat class equals: SpNumberValueFormat.	
-	self assert: aspect displayDecoration class equals: SpNoTextDecoration.
+	self assert: aspect restriction equals: SpNumberValueRestriction default.
+	self assert: aspect textFormat equals: SpNumberValueFormat default.	
+	self assert: aspect displayDecoration equals: SpSmartNumberDecoration default.
 	self assert: aspect inputPresenter class equals: SpTextInputPresenter.
-	self assert: aspect inputPresenter inputRestriction equals: SpSingleLineTextRestriction
+	self assert: aspect inputPresenter inputRestriction equals: SpDecimalTextRestriction default.
+	self assert: aspect inputPresenter textDecoration equals: SpSmartNumberDecoration default.

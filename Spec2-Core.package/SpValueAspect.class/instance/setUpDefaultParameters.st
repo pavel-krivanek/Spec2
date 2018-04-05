@@ -1,0 +1,4 @@
+initialization
+setUpDefaultParameters
+
+	self readValue setUpDefaultAspectParameters: self

@@ -1,3 +1,0 @@
-tests
-createRestriction
-	^SpNumberRangeRestriction new
