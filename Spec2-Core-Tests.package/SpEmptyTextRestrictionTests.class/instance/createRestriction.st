@@ -1,0 +1,4 @@
+running
+createRestriction
+	
+	^SpEmptyTextRestriction new
