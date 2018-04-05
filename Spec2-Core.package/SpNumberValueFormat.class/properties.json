@@ -5,10 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"minValue",
-		"maxValue"
-	],
+	"instvars" : [ ],
 	"name" : "SpNumberValueFormat",
 	"type" : "normal"
 }
