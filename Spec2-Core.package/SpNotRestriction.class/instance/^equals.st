@@ -4,4 +4,4 @@ comparing
 
 	self == anObject ifTrue: [ ^ true ].
 	super = anObject ifFalse: [ ^ false ].
-	^ option1 = anObject option1 and: [ option2 = anObject option2 ]
+	^ actualRestriction = anObject actualRestriction

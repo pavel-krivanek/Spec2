@@ -5,7 +5,7 @@ testCreationByBuilderFromTextValue
 	
 	aspect := #('hello') aspect first build.
 
-	self assert: aspect restriction equals: SpAnyTextRestriction butNotEmpty.
+	self assert: aspect restriction equals: SpAnyTextRestriction & SpEmptyTextRestriction not.
 	self assert: aspect textFormat class equals: SpTextValueFormat.	
 	self assert: aspect displayDecoration class equals: SpNoTextDecoration.
 	self assert: aspect inputPresenter class equals: SpTextInputPresenter.
