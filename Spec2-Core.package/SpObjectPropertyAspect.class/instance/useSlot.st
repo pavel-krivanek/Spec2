@@ -1,4 +1,4 @@
 accessing
-useDirectSlot
+useSlot
 
 	valueGetter := valueGetter asAspectSlotGetterOf: object class
