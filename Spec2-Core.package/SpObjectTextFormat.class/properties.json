@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "DenisKudryashov 3/29/2018 16:10",
+	"commentStamp" : "DenisKudryashov 4/5/2018 18:13",
 	"super" : "Object",
 	"category" : "Spec2-Core-Models",
 	"classinstvars" : [
@@ -8,6 +8,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SpValueTextFormat",
+	"name" : "SpObjectTextFormat",
 	"type" : "normal"
 }

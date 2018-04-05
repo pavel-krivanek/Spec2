@@ -1,0 +1,1 @@
+I represent dummy text format for strings

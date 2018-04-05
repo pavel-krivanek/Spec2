@@ -1,4 +1,4 @@
 accessing
 aspect: aValueAspect
 	aspect := aValueAspect.
-	self setUpInitialValue
+	value := aspect readValue

@@ -1,3 +1,3 @@
 running
 createTextFormat
-	^SpTextValueFormat new
+	^SpStringTextFormat new

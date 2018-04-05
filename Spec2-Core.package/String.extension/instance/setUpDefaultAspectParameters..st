@@ -2,5 +2,5 @@
 setUpDefaultAspectParameters: aValueAspect
 	aValueAspect 
 		restriction: SpAnyTextRestriction default;
-		textFormat: SpTextValueFormat default;
+		textFormat: SpStringTextFormat default;
 		inputPresenter: SpTextInputPresenter new
