@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"textSpec",
-		"textDecoration"
+		"textDecoration",
+		"inputRestriction"
 	],
 	"name" : "SpTextInputPresenter",
 	"type" : "normal"

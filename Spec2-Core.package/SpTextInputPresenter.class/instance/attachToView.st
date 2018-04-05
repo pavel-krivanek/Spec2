@@ -1,7 +1,7 @@
 initialization
 attachToView
 	
-	view textSpec: textSpec.
+	view inputRestriction: inputRestriction.
 	view textDecoration: textDecoration.
 	
 	view showNewText: model

@@ -4,5 +4,5 @@ initialize
 	self changeTableLayout.
 	self initializeTextMorph.
 	self addMorphBack: textMorph.
-	textSpec := SpNoTextRestriction new.
+	inputRestriction := SpNoTextRestriction new.
 	textDecoration := SpNoTextDecoration new

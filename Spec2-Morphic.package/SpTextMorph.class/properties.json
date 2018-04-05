@@ -8,8 +8,8 @@
 	"instvars" : [
 		"textModel",
 		"textMorph",
-		"textSpec",
-		"textDecoration"
+		"textDecoration",
+		"inputRestriction"
 	],
 	"name" : "SpTextMorph",
 	"type" : "normal"
