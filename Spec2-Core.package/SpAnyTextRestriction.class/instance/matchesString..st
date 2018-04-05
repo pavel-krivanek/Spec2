@@ -1,0 +1,3 @@
+testing
+matchesString: aString
+	^true

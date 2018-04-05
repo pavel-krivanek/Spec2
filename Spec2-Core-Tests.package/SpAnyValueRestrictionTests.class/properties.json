@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SpNoTextRestrictionTests",
+	"name" : "SpAnyValueRestrictionTests",
 	"type" : "normal"
 }

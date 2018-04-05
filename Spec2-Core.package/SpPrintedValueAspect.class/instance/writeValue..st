@@ -1,3 +1,3 @@
 operations
 writeValue: aString
-	actualAspect writeValue: (valueFormat parseValueFrom: aString)
+	actualAspect writeValue: (textFormat parseValueFrom: aString)

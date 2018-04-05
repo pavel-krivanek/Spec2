@@ -1,5 +1,5 @@
 initialization
 initialize
 	super initialize.
-	inputRestriction := SpNoTextRestriction new.
+	inputRestriction := SpAnyTextRestriction new.
 	textDecoration := SpNoTextDecoration new

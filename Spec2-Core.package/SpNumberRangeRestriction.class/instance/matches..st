@@ -1,3 +1,3 @@
 testing
 matches: aNumber
-	^aNumber between: minValue and: maxValue
+	^aNumber isNumber and: [aNumber between: minValue and: maxValue]

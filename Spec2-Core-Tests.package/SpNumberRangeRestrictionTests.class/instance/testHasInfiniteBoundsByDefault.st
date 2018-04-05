@@ -1,7 +1,6 @@
 tests
 testHasInfiniteBoundsByDefault
 
-	| restriction |
 	restriction := SpNumberRangeRestriction new.
 	
 	self assert: restriction minValue equals: Float negativeInfinity.

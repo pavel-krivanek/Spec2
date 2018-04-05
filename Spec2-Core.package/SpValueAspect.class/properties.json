@@ -8,7 +8,10 @@
 	"instvars" : [
 		"name",
 		"description",
-		"valueFormat"
+		"restriction",
+		"textFormat",
+		"displayDecoration",
+		"inputPresenter"
 	],
 	"name" : "SpValueAspect",
 	"type" : "normal"

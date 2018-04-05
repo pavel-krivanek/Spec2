@@ -1,4 +1,4 @@
 testing
-matches: aString
+matchesString: aString
 
 	^aString isEmpty or: [aString isAllDigits ]

@@ -1,5 +1,5 @@
 testing
-matches: aString
+matchesString: aString
 
 	| activeSeparator decimalPart |
 	aString ifEmpty: [ ^true ].

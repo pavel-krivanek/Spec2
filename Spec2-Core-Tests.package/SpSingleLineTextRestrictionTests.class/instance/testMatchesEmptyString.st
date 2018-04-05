@@ -1,7 +1,4 @@
 tests
 testMatchesEmptyString
 
-	| actual |
-	actual := SpSingleLineTextRestriction new matches: ''.
-	
-	self assert: actual
+	self assert: (restriction matches: '')

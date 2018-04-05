@@ -1,8 +1,7 @@
 tests
 testMatchesAnyObject
 
-	| restriction |
-	restriction := SpNoTextRestriction new.
+	restriction := SpAnyValueRestriction new.
 	
 	self assert: (restriction matches: nil).
 	self assert: (restriction matches: Object new)
