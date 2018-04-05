@@ -1,3 +1,4 @@
 accessing
-actualAspect: anObject
-	actualAspect := anObject
+actualAspect: aValueAspect
+	actualAspect := aValueAspect.
+	textFormat := actualAspect textFormat

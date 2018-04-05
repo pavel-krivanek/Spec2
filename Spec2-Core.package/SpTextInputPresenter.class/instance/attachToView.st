@@ -4,4 +4,4 @@ attachToView
 	view inputRestriction: inputRestriction.
 	view textDecoration: textDecoration.
 	
-	view showNewText: model
+	view showNewText: model value

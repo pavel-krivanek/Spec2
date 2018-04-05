@@ -1,4 +1,4 @@
 converting
 asTextValueHolder
 
-	^self for: aspect asPrintedAspect
+	^self class fromAspect: aspect asPrintedAspect
