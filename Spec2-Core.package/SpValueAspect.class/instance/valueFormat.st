@@ -1,3 +1,3 @@
 accessing
 valueFormat
-	^ valueFormat
+	^ valueFormat ifNil: [ self readValue defaultValueAspectFormat ]

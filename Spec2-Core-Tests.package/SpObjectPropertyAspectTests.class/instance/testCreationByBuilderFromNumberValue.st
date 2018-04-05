@@ -1,0 +1,8 @@
+tests
+testCreationByBuilderFromNumberValue
+	"#build message is normally hidden from user. 
+	It is called implicitly when value holder is requested from builder"
+	
+	aspect := (2@3) aspect x build.
+	
+	self assert: aspect valueFormat class equals: SpNumberValueFormat
