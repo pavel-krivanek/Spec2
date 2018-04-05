@@ -1,0 +1,3 @@
+running
+createTextFormat
+	self subclassResponsibility 

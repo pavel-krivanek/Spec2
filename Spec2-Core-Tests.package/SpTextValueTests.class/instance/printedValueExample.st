@@ -1,0 +1,3 @@
+running
+printedValueExample
+	^'test string'

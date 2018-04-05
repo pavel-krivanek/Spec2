@@ -7,11 +7,7 @@
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"restriction",
-		"printDecoration",
-		"inputPresenter"
-	],
-	"name" : "SpValueFormat",
+	"instvars" : [ ],
+	"name" : "SpValueTextFormat",
 	"type" : "normal"
 }
