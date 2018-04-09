@@ -6,7 +6,8 @@ setUpDefaultStyle
 		layout beFlow horizontal.
 		
 		layout add: namePresenter with: [ :c | c vertical fitContent].
+		layout add: (SpLabelPresenter textual: ':') with: [ :c | c vertical fitContent].
 		layout add: valuePresenter with: [ :c | 
 			"c vertical fitContent."
-			"c horizontal matchParent"].
+			"c horizontal matchParent"].		
 	]
