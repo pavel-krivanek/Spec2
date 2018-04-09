@@ -9,4 +9,5 @@ testCreationByBuilder
 	self assert: aspect valueGetter selector equals: #x.
 	self assert: aspect valueSetter equals: #x:.
 	self assert: aspect name equals: #x.
+	self assert: aspect isOptional equals: false.
 	self assert: aspect stringConverter notNil

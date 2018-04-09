@@ -8,6 +8,8 @@
 	"instvars" : [
 		"name",
 		"description",
+		"isOptional",
+		"emptyValues",
 		"restriction",
 		"stringConverter",
 		"displayDecoration",
