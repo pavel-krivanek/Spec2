@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SpPragmaBasedUI",
+	"category" : "Spec2-Seaside",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"session"
+	],
+	"name" : "SpSeasideUI",
+	"type" : "normal"
+}

@@ -1,0 +1,4 @@
+initialization
+setUpUndefinedViewFor: aPresenter
+
+	aPresenter view: SpSeasideUndefinedComponent new

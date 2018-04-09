@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "Spec2-Seaside",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"specUI",
+		"label"
+	],
+	"name" : "SpSeasideDemo",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "Spec2-Seaside",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpSeasideComponent",
+	"type" : "normal"
+}

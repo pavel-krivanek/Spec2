@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "SpSeasideComponent",
+	"category" : "Spec2-Seaside",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"contents",
+		"color",
+		"backgroundColor"
+	],
+	"name" : "SpSeasideLabelComponent",
+	"type" : "normal"
+}
