@@ -10,4 +10,6 @@ setUpDefaultStyle
 		layout add: valuePresenter with: [ :c | 
 			"c vertical fitContent."
 			"c horizontal matchParent"].		
+		model isOptional ifFalse: [
+			layout add: (SpLabelPresenter textual: '*') with: [ :c | c vertical fitContent]].
 	]

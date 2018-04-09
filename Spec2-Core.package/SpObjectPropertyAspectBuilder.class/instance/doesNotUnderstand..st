@@ -3,4 +3,6 @@ doesNotUnderstand: aMessage
 
 	aspect 
 		ifNil: [ 	self createAspectFrom: aMessage ]
-		ifNotNil: [ aMessage sendTo: aspect]
+		ifNotNil: [ 
+			self ensureDefaultParameters.
+			aMessage sendTo: aspect]

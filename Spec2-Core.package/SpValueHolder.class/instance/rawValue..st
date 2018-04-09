@@ -1,4 +1,6 @@
 accessing
 rawValue: aValue
 	super rawValue: aValue.
-	aspect writeValue: aValue
+	
+	(aspect isValueValid: aValue)
+		ifTrue: [ aspect writeValue: aValue]

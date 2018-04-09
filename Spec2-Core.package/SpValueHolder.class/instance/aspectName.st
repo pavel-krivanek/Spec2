@@ -1,3 +1,0 @@
-accessing
-aspectName
-	^aspect name
