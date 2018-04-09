@@ -1,3 +1,3 @@
 operations
 convertValueToString: anObject
-	^anObject asString
+	^anObject displayString

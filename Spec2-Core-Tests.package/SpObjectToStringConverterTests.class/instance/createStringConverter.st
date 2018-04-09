@@ -1,0 +1,3 @@
+running
+createStringConverter
+	^SpObjectToStringConverter new
