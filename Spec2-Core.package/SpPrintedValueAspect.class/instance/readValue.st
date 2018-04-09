@@ -1,3 +1,3 @@
 operations
 readValue
-	^textFormat printValue: actualAspect readValue
+	^textConverter printValue: actualAspect readValue
