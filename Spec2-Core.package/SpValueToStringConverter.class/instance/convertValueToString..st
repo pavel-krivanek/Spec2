@@ -1,3 +1,3 @@
 operations
-parseValueFrom: aString
+convertValueToString: anObject
 	self subclassResponsibility 

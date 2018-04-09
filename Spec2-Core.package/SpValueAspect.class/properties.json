@@ -9,9 +9,9 @@
 		"name",
 		"description",
 		"restriction",
+		"stringConverter",
 		"displayDecoration",
-		"inputPresenter",
-		"textConverter"
+		"inputPresenter"
 	],
 	"name" : "SpValueAspect",
 	"type" : "normal"

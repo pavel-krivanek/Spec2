@@ -2,7 +2,7 @@
 setUpDefaultAspectParameters: aValueAspect
 	aValueAspect 
 		restriction: SpNumberValueRestriction default;
-		textConverter: SpNumberTextFormat default;
+		stringConverter: SpNumberToStringConverter default;
 		displayDecoration: SpSmartNumberDecoration default;
 		inputPresenter: (SpTextInputPresenter 
 			restriction: SpDecimalTextRestriction default

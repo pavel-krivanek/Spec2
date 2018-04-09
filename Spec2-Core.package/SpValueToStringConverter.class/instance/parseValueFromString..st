@@ -1,3 +1,3 @@
 operations
-printValue: anObject
+parseValueFromString: aString
 	self subclassResponsibility 

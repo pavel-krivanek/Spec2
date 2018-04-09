@@ -1,0 +1,3 @@
+operations
+convertValueToString: aString
+	^ aString

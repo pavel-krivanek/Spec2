@@ -1,3 +1,3 @@
 running
 createTextFormat
-	^SpNumberTextFormat new
+	^SpNumberToStringConverter new

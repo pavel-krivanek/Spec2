@@ -1,3 +1,3 @@
 operations
-printValue: aNumber
+convertValueToString: aNumber
 	^aNumber printString
