@@ -1,3 +1,3 @@
 running
-printedValueExample
+createStringConverter
 	self subclassResponsibility 

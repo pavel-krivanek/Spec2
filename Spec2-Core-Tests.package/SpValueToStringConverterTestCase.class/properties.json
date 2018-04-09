@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "SpValueTextFormatTestCase",
+	"super" : "TestCase",
 	"category" : "Spec2-Core-Tests-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "SpNumberTextFormatTests",
+	"instvars" : [
+		"converter"
+	],
+	"name" : "SpValueToStringConverterTestCase",
 	"type" : "normal"
 }

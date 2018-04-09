@@ -2,7 +2,7 @@ tests
 testParsingValueFromString
 
 	| actual expected |
-	actual := format parseValueFromString: self printedValueExample.
+	actual := converter parseValueFromString: self convertedValueExample.
 	expected := self valueExample.
 	
 	self assert: actual equals: expected

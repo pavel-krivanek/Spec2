@@ -1,3 +1,3 @@
 running
-createTextFormat
+convertedValueExample
 	self subclassResponsibility 

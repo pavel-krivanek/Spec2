@@ -1,3 +1,3 @@
 running
-createTextFormat
+createStringConverter
 	^SpStringToStringConverter new
